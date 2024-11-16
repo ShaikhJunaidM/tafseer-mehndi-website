@@ -12,13 +12,14 @@ export const Header = () => {
     <header>
       <nav className="navbar">
         <div className="brand-name-logo">
-          <iframe
-            src="/logo.svg"
+          <img
+            src="/images/logo.webp"
+            alt="logo"
             width={50}
             height={50}
             style={{ border: "none" }}
             className="logo"
-          ></iframe>
+          ></img>
           <h2 className="brand-name">Tafseer Mehndi Artist</h2>
         </div>
         <div
